@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- Foundation made by Rob and commented for group benefit -->
+
+<!-- In most web apps, the primary .html file (usually index) contains very little, as piececs are split into , it's just a public-facing collation point to bring everything else together. -->
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+    <meta name="theme-color" content="#798478">
+	<title>Capstone Sports | English sporting goods</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icon.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon.png" />	
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon.png" />	
+	<link rel="icon" sizes="192x192" href="assets/images/icon.png">
+	<link rel="stylesheet" href="assets/stylesheets/core.css" />
+</head>
+    <body>
+
+        <!-- Added a loading feature, in this case the icon, to the site, to delay the page while we wait for the content behind to load. -->
+        <div class="init">
+            <div class="load">
+                
+                <!-- Svg is an image format that scales to any size without losing quality and can be displayed as code, making it great for web use -->
+                <svg class="icon" viewBox="0 0 256 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path d="M97.8,153 C132.2,153 153.8,147.2 167.6,136.8 C181.8,126.4 187.8,111.4 191.6,92.4 L128,92.4 C123.4,109.8 112.8,117 95,117 C74.2,117 60.2,105.6 60.2,76.6 C60.2,47.6 74.6,36.2 97.8,36.2 C119.6,36.2 126.4,51 128,61.2 L191.6,61.2 C184.4,4.4 131.6,0.2 97.8,0.2 C63.6,0.2 0.2,2.6 0.2,76.6 C0.2,150.8 63.6,153 97.8,153 Z" id="C" fill="#333" fill-rule="nonzero"></path>
+                    </g>
+                </svg>
+                <span></span>
+            </div>
+        </div>
+        <div id="block"></div>
+        
+        <!-- The entire website exists inside a canvas, which allows us to manipulate and change content with javascript -->
+        <canvas id="" width="100%" height="100%"></canvas>
+        
+        <!-- stuff at the top of the page typically in the 'header'; menu controls, logo etc -->
+        <header id="header">
+            <svg id="gnb_svg" width="40px" height="40px"></svg>
+            <h2 class="gnb_text pointer" style="color: rgb(37, 33, 32); opacity: 1; -webkit-backface-visibility: visible; z-index: 0; transform: matrix(1, 0, 0, 1, 0, 0);">CAPSTONE</h2>
+        </header>
+        
+        <!-- stuff at the bottom of the page in the 'footer'; additional links, copyright info, etc -->
+        <footer id="footer">
+            <div class="desc">
+                <div>&copy; 2021 Capstone Sports Group Ltd.</div>
+                <div>All rights reserved.</div>
+            </div>
+        </footer>
+        
+        <!-- Site functionality isn't contained in the html/css files, but the script files. If this line isn't here, the site will still load, but it won't work properly -->
+        <script src="main_exp.js" type="text/javascript" charset="utf-8" async="" defer=""></script>
+    </body>
+</html>
